@@ -1,0 +1,9 @@
+{
+  "VsCodeTaskButtons.showCounter": false,
+  "VsCodeTaskButtons.tasks": [
+    {
+      "label": "$(play) nix-rebuild",
+      "task": "nix-rebuild"
+    }
+  ]
+}

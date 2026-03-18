@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "nix-rebuild",
+      "type": "shell",
+      "command": "nix-rebuild"
+    }
+  ]
+}
