@@ -13,6 +13,7 @@
     configuration = {pkgs, ...}: {
       environment = {
         shellAliases = {
+          brew-upgrade = "brew update; brew upgrade; brew upgrade --cask --greedy";
           clean-brew-list = "brew cleanup; clear; brew list";
           garbage = "docker system prune --all -f";
           lisha = "ls -lisha";
@@ -20,7 +21,7 @@
           nix-rebuild = "clear; alejandra /etc/nix-darwin; sudo darwin-rebuild switch --flake /etc/nix-darwin";
           ssh-all = "~/code/os/assets/ssh-all.sh";
           ssh-list = "~/code/os/assets/ssh-list.sh";
-          upgrade = "nix-rebuild && ~/Applications/Paperless/update.sh && softwareupdate --list";
+          upgrade = "nix-rebuild; brew-upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
         };
         variables = {
           EDITOR = "vim";
