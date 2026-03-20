@@ -1,6 +1,5 @@
 {pkgs, ...}: {
   environment.systemPackages = with pkgs; [
-    #httping
     _7zip-zstd
     _7zz
     alejandra

@@ -1,5 +1,9 @@
 {...}: {
   homebrew = {
+    brews = [
+      "displayplacer"
+      "httping"
+    ];
     casks = [
       "altair-graphql-client"
       "atv-remote"
