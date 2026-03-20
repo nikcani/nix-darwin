@@ -1,37 +1,37 @@
 {...}: {
   homebrew = {
     casks = [
-      {name = "altair-graphql-client";}
-      {name = "atv-remote";}
-      {name = "balenaetcher";}
-      {name = "basictex";}
-      {name = "diffusionbee";}
-      {name = "discord";}
-      {name = "docker-desktop";}
-      {name = "dupeguru";}
-      {name = "gimp";}
-      {name = "handbrake-app";}
-      {name = "imageoptim";}
-      {name = "latest";}
-      {name = "libreoffice";}
-      {name = "lm-studio";}
-      {name = "mediathekview";}
-      {name = "microsoft-auto-update";}
-      {name = "microsoft-teams";}
-      {name = "monitorcontrol";}
-      {name = "mqttx";}
-      {name = "obsidian";}
-      {name = "openvpn-connect";}
-      {name = "pgadmin4";}
-      {name = "raspberry-pi-imager";}
-      {name = "scribus";}
-      {name = "stats";}
-      {name = "steam";}
-      {name = "typora";}
-      {name = "upscayl";}
-      {name = "visual-studio-code";}
-      {name = "vlc";}
-      {name = "vnc-viewer";}
+      "altair-graphql-client"
+      "atv-remote"
+      "balenaetcher"
+      "basictex"
+      "diffusionbee"
+      "discord"
+      "docker-desktop"
+      "dupeguru"
+      "gimp"
+      "handbrake-app"
+      "imageoptim"
+      "latest"
+      "libreoffice"
+      "lm-studio"
+      "mediathekview"
+      "microsoft-auto-update"
+      "microsoft-teams"
+      "monitorcontrol"
+      "mqttx"
+      "obsidian"
+      "openvpn-connect"
+      "pgadmin4"
+      "raspberry-pi-imager"
+      "scribus"
+      "stats"
+      "steam"
+      "typora"
+      "upscayl"
+      "visual-studio-code"
+      "vlc"
+      "vnc-viewer"
     ];
     enable = true;
     greedyCasks = true;
