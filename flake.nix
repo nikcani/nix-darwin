@@ -19,8 +19,8 @@
           lisha = "ls -lisha";
           nix-edit = "code /etc/nix-darwin";
           nix-rebuild = "clear; alejandra /etc/nix-darwin; sudo darwin-rebuild switch --flake /etc/nix-darwin";
-          ssh-all = "~/code/os/assets/ssh-all.sh";
-          ssh-list = "~/code/os/assets/ssh-list.sh";
+          ssh-all = "~/code/os/assets/scripts/ssh-all.sh";
+          ssh-list = "~/code/os/assets/scripts/ssh-list.sh";
           upgrade = "nix-rebuild; brew-upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
         };
         variables = {
