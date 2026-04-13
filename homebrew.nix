@@ -27,6 +27,7 @@
       "obsidian"
       "openvpn-connect"
       "pgadmin4"
+      "prismlauncher"
       "raspberry-pi-imager"
       "scribus"
       "stats"
