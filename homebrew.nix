@@ -3,6 +3,7 @@
     brews = [
       "displayplacer"
       "httping"
+      "mole"
     ];
     casks = [
       "altair-graphql-client"
