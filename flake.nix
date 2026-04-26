@@ -19,6 +19,7 @@
           lisha = "ls -lisha";
           nix-edit = "code /etc/nix-darwin";
           nix-rebuild = "clear; alejandra /etc/nix-darwin; sudo darwin-rebuild switch --flake /etc/nix-darwin";
+          speedtest-iperf-cloud = "iperf -c 100.100.1.1";
           ssh-all = "~/code/os/assets/scripts/ssh-all.sh";
           ssh-list = "~/code/os/assets/scripts/ssh-list.sh";
           upgrade = "nix-rebuild; brew-upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
