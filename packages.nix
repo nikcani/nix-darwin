@@ -21,6 +21,7 @@
     gnupg
     go
     gobject-introspection
+    hcloud
     htop
     hugo
     imagemagick
