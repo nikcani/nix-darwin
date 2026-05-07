@@ -8,6 +8,7 @@
     casks = [
       "altair-graphql-client"
       "atv-remote"
+      "audacity"
       "balenaetcher"
       "basictex"
       "diffusionbee"
