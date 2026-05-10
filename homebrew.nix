@@ -6,12 +6,12 @@
       "mole"
     ];
     casks = [
-      "altair-graphql-client"
+      #"altair-graphql-client"
       "atv-remote"
       "audacity"
       "balenaetcher"
       "basictex"
-      "diffusionbee"
+      #"diffusionbee"
       "discord"
       "docker-desktop"
       "dupeguru"
@@ -35,7 +35,7 @@
       "stats"
       "steam"
       "typora"
-      "upscayl"
+      #"upscayl"
       "visual-studio-code"
       "vlc"
       "vnc-viewer"
