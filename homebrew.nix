@@ -9,7 +9,7 @@
       #"altair-graphql-client"
       "atv-remote"
       "audacity"
-      "balenaetcher"
+      #"balenaetcher"
       "basictex"
       #"diffusionbee"
       "discord"
