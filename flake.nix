@@ -15,10 +15,10 @@
         shellAliases = {
           brew-upgrade = "brew update; brew upgrade; brew upgrade --cask --greedy";
           clean-brew-list = "brew cleanup; clear; brew list";
-          garbage = "docker system prune --all -f";
+          edit-nix = "code /etc/nix-darwin";
+          garbage = "sudo nix-collect-garbage -d; docker system prune --all -f";
           lisha = "ls -lisha";
-          nix-edit = "code /etc/nix-darwin";
-          nix-rebuild = "clear; alejandra /etc/nix-darwin; sudo darwin-rebuild switch --flake /etc/nix-darwin";
+          rebuild = "clear; alejandra /etc/nix-darwin; sudo darwin-rebuild switch --flake /etc/nix-darwin";
           speedtest-iperf-cloud = "iperf -c 100.100.1.1";
           ssh-all = "~/code/os/assets/scripts/ssh-all.sh";
           ssh-list = "~/code/os/assets/scripts/ssh-list.sh";
