@@ -22,7 +22,7 @@
           speedtest-iperf-cloud = "iperf -c 100.100.1.1";
           ssh-all = "~/code/os/assets/scripts/ssh-all.sh";
           ssh-list = "~/code/os/assets/scripts/ssh-list.sh";
-          upgrade = "nix-rebuild; brew-upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
+          upgrade = "rebuild; brew-upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
         };
         variables = {
           EDITOR = "vim";
