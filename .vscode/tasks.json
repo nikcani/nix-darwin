@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "nix-rebuild",
+      "label": "rebuild",
       "type": "shell",
-      "command": "nix-rebuild"
+      "command": "rebuild"
     }
   ]
 }
