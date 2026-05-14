@@ -25,6 +25,7 @@
           upgrade = "rebuild; brew-upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
         };
         variables = {
+          DOCKER_CLI_HINTS = "false";
           EDITOR = "vim";
         };
       };
