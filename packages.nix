@@ -10,6 +10,7 @@
     coreutils
     curl
     direnv
+    dive
     dnsmasq
     exiftool
     fastfetch
@@ -67,6 +68,7 @@
     vim
     wakeonlan
     watch
+    websocat
     xz
     zip
     zsh-autosuggestions
