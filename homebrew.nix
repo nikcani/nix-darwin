@@ -21,6 +21,7 @@
       "latest"
       "libreoffice"
       "lm-studio"
+      "macfuse"
       "mediathekview"
       "microsoft-auto-update"
       "microsoft-teams"
