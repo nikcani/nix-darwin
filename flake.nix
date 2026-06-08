@@ -4,48 +4,16 @@
     nix-darwin.url = "github:nix-darwin/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
   };
-
   outputs = inputs @ {
     self,
     nix-darwin,
     nixpkgs,
-  }: let
-    configuration = {pkgs, ...}: {
-      environment = {
-        shellAliases = {
-          brew-upgrade = "brew update; brew upgrade; brew upgrade --cask --greedy";
-          clean-brew-list = "brew cleanup; clear; brew list";
-          edit-nix = "code /etc/nix-darwin";
-          garbage = "sudo nix-collect-garbage -d; docker system prune --all -f";
-          lisha = "ls -lisha";
-          rebuild = "clear; alejandra /etc/nix-darwin; sudo darwin-rebuild switch --flake /etc/nix-darwin";
-          speedtest-iperf-cloud = "iperf -c 100.100.1.1";
-          ssh-all = "~/code/os/assets/scripts/ssh-all.sh";
-          ssh-list = "~/code/os/assets/scripts/ssh-list.sh";
-          upgrade = "rebuild; brew-upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
-        };
-        variables = {
-          DOCKER_CLI_HINTS = "false";
-          EDITOR = "vim";
-        };
-      };
-      nix.settings.experimental-features = "nix-command flakes"; # Necessary for using flakes on this system.
-      nixpkgs = {
-        config.allowUnfree = true;
-        hostPlatform = "aarch64-darwin"; # The platform the configuration will be used on.
-      };
-      system = {
-        configurationRevision = self.rev or self.dirtyRev or null; # Set Git commit hash for darwin-version.
-        primaryUser = "nikcani";
-        stateVersion = 6; # Used for backwards compatibility, please read the changelog before changing. $ darwin-rebuild changelog
-      };
-    };
-  in {
-    # Build darwin flake using:
-    # $ darwin-rebuild build --flake .#nikbook
+  }: {
+    # darwin-rebuild build --flake .#nikbook
     darwinConfigurations."nikbook" = nix-darwin.lib.darwinSystem {
+      specialArgs = {inherit inputs;};
       modules = [
-        configuration
+        ./configuration.nix
         ./homebrew.nix
         ./packages.nix
       ];
