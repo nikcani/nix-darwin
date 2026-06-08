@@ -1,4 +1,19 @@
-{pkgs, ...}: {
+{pkgs, ...}: let
+  phpIntlPcov = pkgs.php85.buildEnv {
+    extensions = {
+      enabled,
+      all,
+    }:
+      enabled
+      ++ (with all; [
+        intl
+        pcov
+      ]);
+    extraConfig = ''
+      pcov.enabled=1
+    '';
+  };
+in {
   environment.systemPackages = with pkgs; [
     _7zip-zstd
     _7zz
@@ -45,9 +60,8 @@
     nodejs_25
     nss
     pango
-    php85
-    php85Extensions.intl
-    php85Packages.composer
+    phpIntlPcov
+    phpIntlPcov.packages.composer
     pinentry_mac
     platformio
     prettier
