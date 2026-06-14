@@ -32,6 +32,7 @@ in {
     fastfetch
     fastlane
     ffmpeg
+    fio
     freerdp
     gd
     ghostscript
