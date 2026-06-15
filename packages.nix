@@ -21,6 +21,7 @@ in {
     bat
     biber
     btop
+    claude-code
     cocoapods
     coreutils
     curl
