@@ -36,6 +36,7 @@ in {
     fio
     freerdp
     gd
+    gemini-cli
     ghostscript
     gnupg
     go
