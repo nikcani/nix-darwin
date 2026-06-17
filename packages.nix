@@ -36,6 +36,7 @@ in {
     fio
     freerdp
     gd
+    gh
     ghostscript
     gnupg
     go
