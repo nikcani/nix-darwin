@@ -9,6 +9,7 @@
       "atv-remote"
       "audacity"
       "basictex"
+      "darrylmorley/whatcable/whatcable"
       "discord"
       "docker-desktop"
       "dupeguru"
