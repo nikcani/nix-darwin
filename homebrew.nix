@@ -6,12 +6,9 @@
       "mole"
     ];
     casks = [
-      #"altair-graphql-client"
       "atv-remote"
       "audacity"
-      #"balenaetcher"
       "basictex"
-      #"diffusionbee"
       "discord"
       "docker-desktop"
       "dupeguru"
@@ -36,10 +33,13 @@
       "stats"
       "steam"
       "typora"
-      #"upscayl"
       "visual-studio-code"
       "vlc"
       "vnc-viewer"
+      #"altair-graphql-client"
+      #"balenaetcher"
+      #"diffusionbee"
+      #"upscayl"
     ];
     enable = true;
     greedyCasks = true;
