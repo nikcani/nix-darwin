@@ -51,7 +51,5 @@
     };
   };
 }
-# TODO: https://nix-darwin.github.io/nix-darwin/manual/index.html#opt-homebrew.enable
 # TODO: https://nix-darwin.github.io/nix-darwin/manual/index.html#opt-homebrew.masApps
-# TODO: https://nix-darwin.github.io/nix-darwin/manual/index.html#opt-homebrew.greedyCasks
 
