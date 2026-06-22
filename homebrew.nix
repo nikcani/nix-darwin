@@ -45,6 +45,10 @@
     ];
     enable = true;
     greedyCasks = true;
+    onActivation = {
+      autoUpdate = true;
+      upgrade = true;
+    };
   };
 }
 # TODO: https://nix-darwin.github.io/nix-darwin/manual/index.html#opt-homebrew.enable
