@@ -3,6 +3,7 @@
     brews = [
       "displayplacer"
       "httping"
+      "mas"
       "mole"
     ];
     casks = [
