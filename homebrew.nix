@@ -44,6 +44,7 @@
       #"upscayl"
     ];
     enable = true;
+    enableZshIntegration = true;
     greedyCasks = true;
     onActivation = {
       autoUpdate = true;
