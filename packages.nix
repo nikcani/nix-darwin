@@ -41,6 +41,7 @@ in {
     gnupg
     go
     gobject-introspection
+    gqrx
     hcloud
     htop
     hugo
