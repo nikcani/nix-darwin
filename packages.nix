@@ -63,6 +63,7 @@ in {
     nmap
     nodejs_25
     nss
+    openocd
     pango
     phpIntlPcov
     phpIntlPcov.packages.composer

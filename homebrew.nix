@@ -5,6 +5,7 @@
       "httping"
       "mas"
       "mole"
+      "stlink"
     ];
     casks = [
       "atv-remote"
