@@ -82,7 +82,7 @@
       "The Unarchiver" = 425424353;
       "WhatsApp" = 310633997;
       "Windows App" = 1295203466;
-      "Xcode" = 497799835;
+      #"Xcode" = 497799835;
     };
     onActivation = {
       autoUpdate = true;
