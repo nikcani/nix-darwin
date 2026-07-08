@@ -2,6 +2,7 @@
   homebrew = {
     brews = [
       "displayplacer"
+      "dotnet"
       "httping"
       "mas"
       "mole"
@@ -15,6 +16,7 @@
       "darrylmorley/whatcable/whatcable"
       "discord"
       "docker-desktop"
+      "dotnet-sdk"
       "dupeguru"
       "gimp"
       "handbrake-app"
