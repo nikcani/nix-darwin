@@ -60,6 +60,7 @@ in {
     netcdf
     nginx
     nil
+    nixd
     nmap
     nodejs_25
     nss
