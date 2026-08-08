@@ -78,6 +78,7 @@ in {
     ruff
     rustc
     rustup
+    sox
     speedtest-cli
     subfinder
     terminal-notifier
