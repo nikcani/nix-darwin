@@ -2,11 +2,11 @@
   "VsCodeTaskButtons.showCounter": false,
   "VsCodeTaskButtons.tasks": [
     {
-      "label": "$(play) rebuild",
+      "label": "$(tools) rebuild",
       "task": "rebuild"
     },
     {
-      "label": "$(play) update",
+      "label": "$(cloud-download) update",
       "task": "update"
     },
     {
