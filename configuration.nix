@@ -23,6 +23,10 @@
     config.allowUnfree = true;
     hostPlatform = "aarch64-darwin";
   };
+  programs.direnv = {
+    enable = true;
+    silent = true;
+  };
   system = {
     configurationRevision = inputs.self.rev or inputs.self.dirtyRev or null; # Set Git commit hash for darwin-version.
     primaryUser = "nikcani";
