@@ -10,6 +10,11 @@
       "label": "update",
       "type": "shell",
       "command": "update"
+    },
+    {
+      "label": "garbage",
+      "type": "shell",
+      "command": "garbage"
     }
   ]
 }

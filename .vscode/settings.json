@@ -8,6 +8,10 @@
     {
       "label": "$(play) update",
       "task": "update"
+    },
+    {
+      "label": "$(trash) garbage",
+      "task": "garbage"
     }
   ]
 }
