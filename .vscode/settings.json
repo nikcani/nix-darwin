@@ -4,6 +4,10 @@
     {
       "label": "$(play) rebuild",
       "task": "rebuild"
+    },
+    {
+      "label": "$(play) update",
+      "task": "update"
     }
   ]
 }

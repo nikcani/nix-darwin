@@ -5,6 +5,11 @@
       "label": "rebuild",
       "type": "shell",
       "command": "rebuild"
+    },
+    {
+      "label": "update",
+      "type": "shell",
+      "command": "update"
     }
   ]
 }
