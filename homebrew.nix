@@ -7,7 +7,6 @@
       "httping"
       "mas"
       "mole"
-      "netbirdio/tap/netbird"
       "stlink"
     ];
     casks = [
@@ -31,7 +30,6 @@
       "microsoft-teams"
       "monitorcontrol"
       "mqttx"
-      "netbirdio/tap/netbird-ui"
       "obsidian"
       "openvpn-connect"
       "pgadmin4"

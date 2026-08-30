@@ -27,6 +27,7 @@
     enable = true;
     silent = true;
   };
+  services.netbird.enable = true;
   system = {
     configurationRevision = inputs.self.rev or inputs.self.dirtyRev or null; # Set Git commit hash for darwin-version.
     primaryUser = "nikcani";
