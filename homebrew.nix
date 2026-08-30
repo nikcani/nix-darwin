@@ -12,7 +12,6 @@
     casks = [
       "atv-remote"
       "audacity"
-      "basictex"
       "darrylmorley/whatcable/whatcable"
       "discord"
       "docker-desktop"
@@ -90,6 +89,7 @@
     };
     onActivation = {
       autoUpdate = true;
+      cleanup = "uninstall";
       upgrade = true;
     };
   };

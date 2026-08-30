@@ -15,11 +15,8 @@
   };
 in {
   environment.systemPackages = with pkgs; [
-    _7zip-zstd
-    _7zz
     alejandra
     bat
-    biber
     btop
     claude-code
     cocoapods
@@ -35,37 +32,30 @@ in {
     ffmpeg
     fio
     freerdp
-    gd
     gh
     ghostscript
     gnupg
     go
-    gobject-introspection
     gqrx
     hcloud
     htop
     hugo
     imagemagick
     iperf
-    jasper
     jq
     k6
-    lua
     mermaid-cli
     mkcert
     mosquitto
     mtr
     mysql84
     ncdu
-    netcdf
     nginx
     nil
     nixd
     nmap
     nodejs_25
-    nss
     openocd
-    pango
     phpIntlPcov
     phpIntlPcov.packages.composer
     pinentry_mac
@@ -76,14 +66,11 @@ in {
     rclone
     ruby
     ruff
-    rustc
     rustup
     sox
     speedtest-cli
     subfinder
-    terminal-notifier
     terraform
-    texliveFull
     tmux
     tree
     uv
