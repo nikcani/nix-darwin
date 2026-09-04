@@ -14,7 +14,10 @@
       specialArgs = {inherit inputs;};
       modules = [
         ./configuration.nix
-        ./homebrew.nix
+        ./homebrew/brews.nix
+        ./homebrew/casks.nix
+        ./homebrew/config.nix
+        ./homebrew/masApps.nix
         ./packages.nix
       ];
     };
