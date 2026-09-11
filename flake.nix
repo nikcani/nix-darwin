@@ -9,7 +9,6 @@
     nix-darwin,
     nixpkgs,
   }: {
-    # darwin-rebuild build --flake .#nikbook
     darwinConfigurations."nikbook" = nix-darwin.lib.darwinSystem {
       specialArgs = {inherit inputs;};
       modules = [
