@@ -2,7 +2,6 @@
   homebrew.casks = [
     "atv-remote"
     "audacity"
-    "darrylmorley/whatcable/whatcable"
     "discord"
     "docker-desktop"
     "dotnet-sdk"
@@ -30,6 +29,7 @@
     "typora"
     "visual-studio-code"
     "vlc"
+    "whatcable"
     #"altair-graphql-client"
     #"balenaetcher"
     #"diffusionbee"
