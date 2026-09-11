@@ -6,7 +6,6 @@
     "discord"
     "docker-desktop"
     "dotnet-sdk"
-    "dupeguru"
     "gimp"
     "handbrake-app"
     "imageoptim"

@@ -22,6 +22,7 @@ in {
     cocoapods
     coreutils
     curl
+    czkawka
     direnv
     dive
     dnsmasq
