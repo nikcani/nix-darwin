@@ -25,6 +25,7 @@ in {
     direnv
     dive
     dnsmasq
+    duti
     exiftool
     fastfetch
     fastlane

@@ -13,6 +13,7 @@
       specialArgs = {inherit inputs;};
       modules = [
         ./configuration.nix
+        ./default-apps.nix
         ./homebrew/brews.nix
         ./homebrew/casks.nix
         ./homebrew/config.nix
