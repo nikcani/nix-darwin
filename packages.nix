@@ -26,7 +26,6 @@ in {
     dive
     dnsmasq
     exiftool
-    ext4fuse
     fastfetch
     fastlane
     ffmpeg
