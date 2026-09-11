@@ -53,7 +53,7 @@ in {
     nil
     nixd
     nmap
-    nodejs_25
+    nodejs_26
     openocd
     phpIntlPcov
     phpIntlPcov.packages.composer
