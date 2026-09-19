@@ -13,6 +13,7 @@
     "GrandPerspective" = 1111570163;
     "Home Assistant" = 1099568401;
     "HP" = 1474276998;
+    "Hyperspace" = 6739505345;
     "Image2Icon" = 992115977;
     "Keynote" = 409183694;
     "Kindle" = 302584613;
