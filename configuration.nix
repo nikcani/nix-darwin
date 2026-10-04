@@ -11,7 +11,7 @@
       dc_up = "devcontainer up --workspace-folder .";
       edit-nix = "code /etc/nix-darwin";
       garbage = "nix-collect-garbage -d; docker system prune --all -f";
-      goose-secure = "docker run --rm -it -v \"$PWD:/workspace\" -w /workspace --add-host=host.docker.internal:host-gateway -e OLLAMA_API_BASE=http://host.docker.internal:11434 ghcr.io/block/goose:latest";
+      goose-secure = "docker run --rm -it -v \"$PWD:/workspace\" -w /workspace --add-host=host.docker.internal:host-gateway -e GOOSE_PROVIDER=ollama -e GOOSE_MODEL=hf.co/unsloth/Qwen3.5-9B-GGUF:Q4_K_M -e OLLAMA_HOST=http://host.docker.internal:11434 -e OLLAMA_CONTEXT_LENGTH=32768 -e GOOSE_TELEMETRY_ENABLED=false ghcr.io/block/goose:latest";
       lisha = "ls -lisha";
       rebuild = "clear; alejandra /etc/nix-darwin; sudo darwin-rebuild switch --flake /etc/nix-darwin";
       speedtest-iperf-cloud = "iperf -c 100.100.1.1";
