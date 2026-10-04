@@ -23,6 +23,7 @@ in {
     coreutils
     curl
     czkawka
+    devcontainer
     direnv
     dive
     dnsmasq
@@ -56,6 +57,7 @@ in {
     nixd
     nmap
     nodejs_26
+    ollama
     openocd
     phpIntlPcov
     phpIntlPcov.packages.composer
