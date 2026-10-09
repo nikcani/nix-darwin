@@ -17,7 +17,7 @@
       speedtest-iperf-cloud = "iperf -c 100.100.1.1";
       ssh-all = "~/code/os/assets/scripts/ssh-all.sh";
       ssh-list = "~/code/os/assets/scripts/ssh-list.sh";
-      update = "rebuild; brew-upgrade; mas upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
+      update = "nix flake update --flake /etc/nix-darwin; rebuild; brew-upgrade; mas upgrade; ~/Applications/Paperless/update.sh; softwareupdate --list";
       upgrade = "update";
     };
     variables = {
