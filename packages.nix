@@ -16,6 +16,7 @@
 in {
   environment.systemPackages = with pkgs; [
     alejandra
+    audacity
     bat
     btop
     claude-code
@@ -27,6 +28,7 @@ in {
     direnv
     dive
     dnsmasq
+    dotnet-sdk_10
     duti
     exiftool
     fastfetch
@@ -46,8 +48,11 @@ in {
     iperf
     jq
     k6
+    libreoffice-bin # not `libreoffice`, which is Linux-only
+    lmstudio # not `lm-studio`, no such attribute
     mermaid-cli
     mkcert
+    monitorcontrol
     mosquitto
     mtr
     mysql84
@@ -57,6 +62,7 @@ in {
     nixd
     nmap
     nodejs_26
+    obsidian
     ollama
     openocd
     phpIntlPcov
@@ -64,6 +70,7 @@ in {
     pinentry_mac
     platformio
     prettier
+    prismlauncher
     pv
     python315
     rclone
@@ -72,15 +79,19 @@ in {
     rustup
     sox
     speedtest-cli
+    stats
     subfinder
     terraform
     tmux
     tree
+    typora
     uv
     vim
+    vlc-bin # not `vlc`, which is Linux-only
     wakeonlan
     watch
     websocat
+    whatcable
     xz
     zip
     zsh-autosuggestions
